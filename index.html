@@ -11,28 +11,40 @@
         <p class="heading">Inscrybe Dot</p>
     </header>
     <main>
-        <aside class="popular yellowbox">
-            <p class="heading">Most Popular</p>
-            <ul class="button-menu">
-                <li class="button yellowbox">
-                    <img class="button-icon" src="img/mighty_leap.webp" alt="">
-                    <p class="plaintext">Mighty Leap sigil</p>
-                </li>
-                <li class="button yellowbox">
-                    <img class="button-icon" src="img/hoarder.webp" alt="">
-                    <p class="plaintext">Hoarder sigil</p>
-                </li>
-                <li class="button yellowbox">
-                    <img class="button-icon" src="img/scissors.webp" alt="">
-                    <p class="plaintext">Scissors</p>
-                </li>
-                <li class="button yellowbox">
-                    <img class="button-icon" src="img/dagger.webp" alt="">
-                    <p class="plaintext">Special Dagger</p>
-                </li>
-            </ul>
-            <p class="plaintext">According to Search</p>
-        </aside>
+        <div class="left-aside-elements">
+            <aside class="popular yellowbox">
+                <p class="heading">Most Popular</p>
+                <div class="button-menu">
+                    <a class="row-flex yellowbox">
+                        <img class="button-icon" src="img/Mighty Leap.webp" alt="">
+                        <p class="plaintext">Mighty Leap</p>
+                    </a>
+                    <a class="row-flex yellowbox">
+                        <img class="button-icon" src="img/hoarder.webp" alt="">
+                        <p class="plaintext">Hoarder</p>
+                    </a>
+                    <a class="row-flex yellowbox">
+                        <img class="button-icon" src="img/scissors.webp" alt="">
+                        <p class="plaintext">Scissors</p>
+                    </a>
+                    <a class="row-flex yellowbox">
+                        <img class="button-icon" src="img/dagger.webp" alt="">
+                        <p class="plaintext">Special Dagger</p>
+                    </a>
+                </div>
+                <p class="plaintext">According to Search</p>
+            </aside>
+            <aside class="fact yellowbox">
+                    <p class="heading">Random fact</p>
+                    <p class="plaintext">For Geck, that has these sigils:</p>
+                    <div class="row-flex">
+                        <img class="button-icon" src="img/worthy_sacrifice.webp" alt="">
+                        <img class="button-icon" src="img/unkillable.webp" alt="">
+                        <img class="button-icon" src="img/many_lives.webp" alt="">
+                    </div>
+                    <p class="plaintext">you need at least 3 Gecks, Black goat, Cockroach and Cat, then you need to pass 3 Sacrifice Stones, to place the sigils and 2 Micologists to merge the cards</p>
+            </aside>
+        </div>
         <div class="main-menu">
             <div class="menu-header">
                 <img src="img/failure.png" alt="">
@@ -45,46 +57,51 @@
             </div>
             <div class="catalogue">
                 <p class="heading catalogue-heading">Catalogue</p>
-                <ul class="catalogue-menu">
-                    <li class="catalogue-menu-button">
+                <div class="catalogue-menu">
+                    <a id="cards" class="catalogue-menu-button">
                         <div class="line"></div>
                         <p class="plaintext">Cards</p>
                         <div class="line"></div>
-                    </li>
-                    <li class="catalogue-menu-button">
+                    </a>
+                    <a id="sigils" class="catalogue-menu-button">
                         <div class="line"></div>
                         <p class="plaintext">Sigils</p>
                         <div class="line"></div>
-                    </li>
-                    <li class="catalogue-menu-button">
+                    </a>
+                    <a id="characters" class="catalogue-menu-button">
                         <div class="line"></div>
                         <p class="plaintext">Characters</p>
                         <div class="line"></div>
-                    </li>
-                    <li class="catalogue-menu-button">
+                    </a>
+                    <a id="items" class="catalogue-menu-button">
                         <div class="line"></div>
                         <p class="plaintext">Items</p>
                         <div class="line"></div>
-                    </li>
-                </ul>
+                    </a>
+                    <a id="locations" class="catalogue-menu-button">
+                        <div class="line"></div>
+                        <p class="plaintext">Locations</p>
+                        <div class="line"></div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="right-aside-elements">
             <aside class="support yellowbox">
                 <p class="heading">Support and Donate</p>
-                <ul class="button-menu">
-                    <li class="button yellowbox">
+                <div class="button-menu">
+                    <a class="row-flex yellowbox">
                         <img class="button-icon" src="img/patreon.png" alt="">
                         <p class="plaintext">@vixodinskrybe_official</p>
-                    </li>
-                    <li class="button yellowbox">
+                    </a>
+                    <a class="row-flex yellowbox">
                         <img class="button-icon" src="img/email.png" alt="">
                         <p class="plaintext">n.nizametdinov@list.ru</p>
-                    </li>
-                    <li class="button yellowbox">
+                    </a>
+                    <a class="row-flex yellowbox">
                         <img class="button-icon" src="img/phone.png" alt="">
                         <p class="plaintext">+7 (916) 847 41-08</p>
-                    </li>
+                    </a>
                 </ul>
             </aside>
             <aside class="feedback yellowbox">
@@ -95,5 +112,6 @@
             </aside>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
