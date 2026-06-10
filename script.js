@@ -23,14 +23,6 @@ listContainer.addEventListener('click', (event) => {
   // Если это не "Back" и не категория из списка (например, подпункт вроде 'Stoat'), ничего не делаем
   if (!isBackBtn && !isCategoryBtn) return;
 
-  // Применяем ваши стили для контейнера
-  cataloguebox = document.querySelector('.catalogue');
-  cataloguemenu = document.querySelector('.catalogue-menu');
-
-  cataloguebox.style = 'margin-top: 0px; gap: 10px';
-  cataloguemenu.style = 'height: 400px';
-
-
   const items = document.querySelectorAll('.catalogue-menu-button');
   
   // 2. Анимация исчезновения текущих элементов: снизу вверх
