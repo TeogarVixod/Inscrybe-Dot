@@ -39,8 +39,6 @@ listContainer.addEventListener('click', (event) => {
     listContainer.innerHTML = ''; // Полностью очищаем список
 
     if (isBackBtn) {
-      cataloguebox.style = 'gap: 50px';
-      cataloguemenu.style = 'height: 240px';
 
       // --- ВОЗВРАТ В ГЛАВНОЕ МЕНЮ ---
       // Временно вставляем скрытый дефолтный HTML
